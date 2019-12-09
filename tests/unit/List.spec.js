@@ -11,7 +11,7 @@ describe('List component', () => {
     })
 
     it('check if "Add your first Todo task" is displayed if List is empty', () => {
-        expect(wrapper.find('h3').text()).toEqual('Add your first Todo task')
+        expect(wrapper.html()).toContain('Add your first Todo task')
     })
 });
 
