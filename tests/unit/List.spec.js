@@ -8,11 +8,12 @@ describe('List component', () => {
         propsData: {
             list: testData
         }
-    })
+    });
 
     it('check if "Add your first Todo task" is displayed if List is empty', () => {
         expect(wrapper.html()).toContain('Add your first Todo task')
-    })
+    });
+
 });
 
 

@@ -2,7 +2,7 @@ import Header from "../../src/components/Header";
 import {mount} from "@vue/test-utils";
 
 describe('Header is rendered correctly', () => {
-    const wrapper = mount(Header)
+    const wrapper = mount(Header);
 
     it('Renders the correct date', () => {
         let today = new Date().getDate();
